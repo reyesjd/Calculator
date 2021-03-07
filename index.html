@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Calculadora</title>
+    <script src="cal.js"></script>
+    <link rel="stylesheet" href="calculadoraStyle.css">
+</head>
+
+<body>
+    <main id="main">
+        <h3>Calculadora</h3>
+        <div id="text">
+            
+            <form>
+                <input type="text" id="textField" readonly>
+            </form>
+        </div>
+        <div id="row1">
+            <button id="rst" onclick="changeText(this)">Retr</button>
+            <button id="ce" onclick="changeText(this)">CE</button>
+            <button id="c" onclick="changeText(this)">C</button>
+        </div>
+        <div class="buttons">            
+            <div class="numbers">
+                <button id="b7" onclick="addNumers(this)">7</button>
+                <button id="b8" onclick="addNumers(this)">8</button>
+                <button id="b9" onclick="addNumers(this)">9</button>
+                <button id="b4" onclick="addNumers(this)">4</button>
+                <button id="b5" onclick="addNumers(this)">5</button>
+                <button id="b6" onclick="addNumers(this)">6</button>
+                <button id="b1" onclick="addNumers(this)">1</button>
+                <button id="b2" onclick="addNumers(this)">2</button>
+                <button id="b3" onclick="addNumers(this)">3</button>
+                <button id="b0" onclick="addNumers(this)">0</button>
+                <button id="bPoint" onclick="addNumers(this)">.</button>
+                <button id="bChangeSig" onclick="addNumers(this)">+/-</button>
+            </div>
+            <div class="operations">
+                <button id="oDiv" onclick="addOperation(this)">/</button>
+                <button id="oRoot" onclick="addOperation(this)">Raiz</button>
+                <button id="oMul" onclick="addOperation(this)">*</button>
+                <button id="oMod" onclick="addOperation(this)">%</button>
+                <button id="oMin" onclick="addOperation(this)">-</button>
+                <button id="oAnd" onclick="addOperation(this)">And</button>
+                <button id="oPlus" onclick="addOperation(this)">+</button>
+                <button id="oEqual" onclick="addOperation(this)">=</button>
+            </div>
+            
+    
+                
+                
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

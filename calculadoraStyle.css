@@ -1,0 +1,56 @@
+main {
+    width: 300px;
+    height: 236px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -118px;
+    margin-left: -150px;
+    border: red 5px solid;
+    border-color: blue;
+    background-color: cornsilk;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+}
+#textField {
+    width: 280px;
+    border-radius: 7px;
+    text-align: right;
+}
+
+.buttons {
+    padding-left: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 110px);
+}
+
+#row1 {  
+    padding-top: 10px;  
+    padding-left: 90px;
+    display: grid;
+    grid-template-rows: repeat(1, 20px);
+    grid-template-columns: repeat(3, 40px);
+}
+
+.numbers {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 30px);
+}
+.operations {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 40px);
+}
+.numbers, .operations {
+    float: left;
+    padding: 5px;    
+    align-items: center;
+}
+
